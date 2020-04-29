@@ -1,4 +1,4 @@
-def naive_search(pattern, string):
+def linear_search(pattern, string):
     pattern_length = len(pattern)
     string_length = len(string)
 
@@ -17,4 +17,4 @@ def naive_search(pattern, string):
 if __name__ == '__main__':
     input_text = "i'm a text"
     input_pattern = "text"
-    naive_search(input_pattern, input_text)
+    linear_search(input_pattern, input_text)
